@@ -47,6 +47,9 @@
                                 <state key="normal" title="Check Answer">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="choiceOneTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xYi-4t-gBV"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kb6-4o-Vhh">
                                 <rect key="frame" x="27" y="534" width="132" height="93"/>
@@ -56,6 +59,9 @@
                                 <state key="normal" title="Check Answer">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="choiceThreeTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DRo-Jq-scU"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0gF-wc-Qyh">
                                 <rect key="frame" x="217" y="534" width="132" height="93"/>
@@ -65,6 +71,9 @@
                                 <state key="normal" title="Check Answer">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="choiceFourTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2yc-Xb-JUb"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lc2-oV-ETi">
                                 <rect key="frame" x="217" y="422" width="132" height="93"/>
@@ -74,6 +83,9 @@
                                 <state key="normal" title="check Answer">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="choiceTwoTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ura-3Y-njI"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C0o-r0-aP3">
                                 <rect key="frame" x="153" y="705" width="70" height="35"/>
@@ -95,6 +107,14 @@
                         <color key="backgroundColor" red="0.088817007839679718" green="0.2811608612537384" blue="0.37735724449157715" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="choiceFour" destination="0gF-wc-Qyh" id="fnk-7K-v0u"/>
+                        <outlet property="choiceOne" destination="T5J-o1-lQj" id="lWs-tQ-wCM"/>
+                        <outlet property="choiceThree" destination="Kb6-4o-Vhh" id="9WT-U1-KYE"/>
+                        <outlet property="choiceTwo" destination="Lc2-oV-ETi" id="K32-cN-RZ3"/>
+                        <outlet property="questionLabel" destination="4xM-J5-ZAf" id="7YK-UK-YAZ"/>
+                        <outlet property="scoreLabel" destination="xwk-A5-8lh" id="H07-Kn-RVb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
